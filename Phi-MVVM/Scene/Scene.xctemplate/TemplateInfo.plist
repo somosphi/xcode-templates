@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Name:</string>
+			<key>Description</key>
+			<string>The name of the Service and service route to create</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>Feature</string>
+		</dict>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>___FILEBASENAME___Service.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Service</string>
+			</array>
+			<key>Path</key>
+			<string>___FILEBASENAME___Service.swift</string>
+		</dict>
+		<key>___FILEBASENAME___ServiceRoute.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Service</string>
+			</array>
+			<key>Path</key>
+			<string>___FILEBASENAME___ServiceRoute.swift</string>
+		</dict>
+		<key>___FILEBASENAME___ViewModel.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>ViewModel</string>
+			</array>
+			<key>Path</key>
+			<string>___FILEBASENAME___ViewModel.swift</string>
+		</dict>
+		<key>___FILEBASENAME___ViewController</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>View</string>
+			</array>
+			<key>Path</key>
+			<string>___FILEBASENAME___ViewController.swift</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
